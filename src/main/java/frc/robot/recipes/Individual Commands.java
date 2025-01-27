@@ -26,6 +26,7 @@ public class AlignRobotToReefCommand extends CommandBase {
         this.drive = drive;
         addRequirements(vision, drive); // This command requires the vision and drive subsystems
     }
+    
 
     /**
      * Called when the command is initially scheduled.
